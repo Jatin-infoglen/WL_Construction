@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShippingAddress__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(LEN(  Shipping2Street__c ) &gt; 0,  Shipping2Street__c  &amp; &quot; &quot; , &quot;&quot; ) &amp; BR() &amp;
+if(LEN(  Shipping2City__c  ) &gt; 0,  Shipping2City__c &amp; &quot;, &quot; , &quot;&quot; )&amp;
+if(LEN(  Shipping2StateProvince__c  ) &gt; 0,  Shipping2StateProvince__c &amp; &quot; &quot; , &quot;&quot; )&amp;
+if(LEN(   Shipping2ZipPostalCode__c ) &gt; 0,  Shipping2ZipPostalCode__c ,&quot;&quot;) &amp; BR() &amp;
+If(LEN(  Shipping2Country__c  ) &gt; 0,  Shipping2Country__c ,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Shipping Address</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
