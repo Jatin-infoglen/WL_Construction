@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>XHC w/ Contractor Refs</name>
+    <style>none</style>
+    <subject>X-treme Hybrid Combo Diamond Blade</subject>
+    <textOnly>Hello {!Lead.FirstName},
+
+Here is the info I promised, I have also included a list of references for you to contact at your convenience. Thank you for your interest. I look forward to speaking with you soon. You can also visit our website at  www.wlconstructionsupply.com to view our products.
+
+Respectfully,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
