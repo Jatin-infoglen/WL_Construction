@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origin__c</fullName>
+    <externalId>false</externalId>
+    <label>Origin</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Imported</fullName>
+                <default>false</default>
+                <label>Imported</label>
+            </value>
+            <value>
+                <fullName>Web-to-Lead</fullName>
+                <default>false</default>
+                <label>Web-to-Lead</label>
+            </value>
+            <value>
+                <fullName>Supplemental</fullName>
+                <default>false</default>
+                <label>Supplemental</label>
+            </value>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Call In</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call In</label>
+            </value>
+            <value>
+                <fullName>Lead Provider</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lead Provider</label>
+            </value>
+            <value>
+                <fullName>Manually</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manually</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Rep Queue: Chad Jackson</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rep Queue: Chad Jackson</label>
+            </value>
+            <value>
+                <fullName>Rep Queue: Ernesto Robles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rep Queue: Ernesto Robles</label>
+            </value>
+            <value>
+                <fullName>Rep Queue: Joe Olivares</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rep Queue: Joe Olivares</label>
+            </value>
+            <value>
+                <fullName>Rep Queue: Justin Lowrey</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rep Queue: Justin Lowrey</label>
+            </value>
+            <value>
+                <fullName>Rep Queue: Kevin Schwanke</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rep Queue: Kevin Schwanke</label>
+            </value>
+            <value>
+                <fullName>Rep Queue: Mark Sehnem</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rep Queue: Mark Sehnem</label>
+            </value>
+            <value>
+                <fullName>Walk In</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Walk In</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

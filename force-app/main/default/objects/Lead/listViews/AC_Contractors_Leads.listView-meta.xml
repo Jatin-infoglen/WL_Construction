@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC_Contractors_Leads</fullName>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.MOBILE_PHONE</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Origin__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>AC Contractors</value>
+    </filters>
+    <label>AC Contractors Leads</label>
+</ListView>
