@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Memo_Field_Validation</fullName>
+    <active>true</active>
+    <description>This is used to restrict the user to modify Order once the Order status become Credit memo</description>
+    <errorConditionFormula>AND(
+
+ISPICKVAL( Status, &apos;Credit Memo&apos;),
+NOT(ISCHANGED(Status )),NOT( ISCHANGED( OwnerId ))
+
+)</errorConditionFormula>
+    <errorMessage>You Can&apos;t modify Credit Memo Order</errorMessage>
+</ValidationRule>

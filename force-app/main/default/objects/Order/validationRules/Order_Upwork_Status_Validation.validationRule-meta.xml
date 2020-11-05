@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Upwork_Status_Validation</fullName>
+    <active>true</active>
+    <description>This is used to restrict the user to direct Paid the order from the Draaft</description>
+    <errorConditionFormula>AND(ISPICKVAL(PRIORVALUE(Status),&quot;Draft&quot;), ISPICKVAL(Status , &apos;Paid&apos;) )</errorConditionFormula>
+    <errorMessage>You Can’t Change status Draft to Paid</errorMessage>
+</ValidationRule>

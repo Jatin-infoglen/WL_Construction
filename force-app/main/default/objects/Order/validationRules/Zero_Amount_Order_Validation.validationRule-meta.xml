@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zero_Amount_Order_Validation</fullName>
+    <active>true</active>
+    <description>This is used to restrict the user to Paid the Zero Balance order Amount</description>
+    <errorConditionFormula>AND( ISCHANGED(Status ),ISPICKVAL( Status , &apos;Paid&apos;),Total_Amount__c &lt;= 0, NOT(ISCHANGED( CreditMemoAmount__c ) ))</errorConditionFormula>
+    <errorMessage>You Can&apos;t  mark Paid the Zero Total Amount Order</errorMessage>
+</ValidationRule>
