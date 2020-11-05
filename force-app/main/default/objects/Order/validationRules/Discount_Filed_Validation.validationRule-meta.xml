@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Filed_Validation</fullName>
+    <active>true</active>
+    <description>This is used to restrict the user to enter the discount amount greater than TotalAmount</description>
+    <errorConditionFormula>AND(  RecordType.Name =&apos;Standard Order&apos;,DiscountAmount__c &gt;   TotalAmount )</errorConditionFormula>
+    <errorDisplayField>DiscountAmount__c</errorDisplayField>
+    <errorMessage>The discount should not be more than the Total Amount.</errorMessage>
+</ValidationRule>

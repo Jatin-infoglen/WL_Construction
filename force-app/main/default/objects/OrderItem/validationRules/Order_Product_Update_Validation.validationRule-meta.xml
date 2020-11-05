@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Product_Update_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( 
+     (TEXT(Order.Status) == &quot;Activated&quot;),
+     (TEXT(Order.Status) == &quot;Paid&quot;),
+     (TEXT(Order.Status) == &quot;Credit Memo&quot;)
+   )</errorConditionFormula>
+    <errorMessage>You Can not Update Order Product Once the Order is Activated / Paid / Credit Memo</errorMessage>
+</ValidationRule>

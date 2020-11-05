@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orignal_Amount__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.Name = &apos;Credit Memo&apos;, -1  * (NetAmount__c  + ShippingFees__c +  CreditMemoAmount__c ),  (NetAmount__c + ShippingFees__c) -  DiscountAmount__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Amount without Credit Memo</inlineHelpText>
+    <label>Orignal Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

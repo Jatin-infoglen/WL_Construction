@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Status_Update_Validation</fullName>
+    <active>true</active>
+    <description>This validation is used to restrict the user after the order gets activated</description>
+    <errorConditionFormula>OR(
+AND(TEXT(Status)  = &apos;Draft&apos;, 
+OR(TEXT(PRIORVALUE(Status)) = &apos;Activated&apos;,
+TEXT(PRIORVALUE(Status)) = &apos;Paid&apos;,
+TEXT(PRIORVALUE(Status)) = &apos;Credit Memo&apos;)),
+
+AND(TEXT(Status)  = &apos;Activated&apos;, 
+OR(TEXT(PRIORVALUE(Status)) = &apos;Paid&apos;,
+TEXT(PRIORVALUE(Status)) = &apos;Credit Memo&apos;)),
+
+AND(TEXT(Status)  = &apos;Paid&apos;, 
+TEXT(PRIORVALUE(Status)) = &apos;Credit Memo&apos;)
+)</errorConditionFormula>
+    <errorMessage>You Can’t Change the status  from the previous status</errorMessage>
+</ValidationRule>

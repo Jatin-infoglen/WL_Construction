@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Memo</fullName>
+    <active>true</active>
+    <description>This Record type is used to Create credit memo type orders</description>
+    <label>Credit Memo</label>
+    <picklistValues>
+        <picklist>PaymentType__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Credit Memo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

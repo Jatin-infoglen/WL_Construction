@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New</fullName>
+    <availability>online</availability>
+    <description>This is used to create Credit memo order on Original Order</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/lightning/o/Order/new?defaultFieldValues=OpportunityId={!Order.OpportunityId},OriginalOrder__c={!Order.Id},AccountId={!Order.OrignelOrderAccount__c},TaxPercentage__c={!Order.TaxPercentage__c}&amp;backgroundContext=%2Flightning%2Fr%2FOrder%2F{!Order.Id}%2Fview&amp;recordTypeId=0120r0000009EplAAE</url>
+</WebLink>

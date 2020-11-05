@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount__c</fullName>
+    <description>This Field is used to calculate the Complete total amount including Tax , Shipping fees and Order Amount</description>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.Name = &apos;Credit Memo&apos;, -1  * ( NetAmount__c  + ShippingFees__c +  CreditMemoAmount__c -  DiscountAmount__c ),  ( NetAmount__c + ShippingFees__c) -  DiscountAmount__c + CreditMemoOrderAmount__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Net amount + Shipping fees - Payment Discount - Credit Memo</inlineHelpText>
+    <label>Total Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

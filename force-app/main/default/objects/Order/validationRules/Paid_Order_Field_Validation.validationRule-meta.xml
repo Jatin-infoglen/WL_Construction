@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paid_Order_Field_Validation</fullName>
+    <active>true</active>
+    <description>This is used to restrict the user to modified the record once the Order Status Paid</description>
+    <errorConditionFormula>AND(
+
+ISPICKVAL( Status , &apos;Paid&apos;) ,
+NOT(ISCHANGED(Status )),NOT( ISCHANGED(OrderPaidDate__c )),NOT( ISCHANGED( OwnerId )),NOT( ISCHANGED(  CreditMemoOrderAmount__c )),NOT(ISCHANGED(DiscountAmount__c)),NOT(ISCHANGED(PaymentType__c))
+
+
+)</errorConditionFormula>
+    <errorMessage>You Can’t modify the values once the Order Paid</errorMessage>
+</ValidationRule>
