@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreditCardDate__c</fullName>
+    <description>This is used yo store Credit Card Date</description>
+    <externalId>false</externalId>
+    <label>Credit Card Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

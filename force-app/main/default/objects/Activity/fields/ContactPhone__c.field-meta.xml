@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactPhone__c</fullName>
+    <description>This is used to store Phone No Of Contact</description>
+    <externalId>false</externalId>
+    <formula>IF(  AND( NOT(ISBLANK(Contact__c)), NOT( ISBLANK( Contact__r.Phone )) ) ,  Contact__r.Phone , &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Phone</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
