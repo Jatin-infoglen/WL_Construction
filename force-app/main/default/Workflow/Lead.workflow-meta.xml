@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Source_of_Lead_Update</fullName>
+        <description>This is used to update Origin Field of Lead</description>
+        <field>Origin__c</field>
+        <literalValue>Imported</literalValue>
+        <name>Source of Lead Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Lead Creation Field Update</fullName>
+        <actions>
+            <name>Source_of_Lead_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This work flow rule is used to update the source of lead value when lead crate from any where in system</description>
+        <formula>ISBLANK(TEXT( Origin__c ))</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>
