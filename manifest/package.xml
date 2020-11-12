@@ -1,316 +1,352 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
-    </types>
-
-    <types>
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AssignmentRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
         <members>*</members>
         <name>CustomField</name>
     </types>
-
-    <types>
-        <members>*</members>
-        <members>Account</members>
-        <name>CustomObject</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>Document</name>
-    </types>
-
-    <!--     For retrieving and deploying Email Templates, folder name is mandatory       -->
-    <types>
-        <members>*</members>
-        <name>EmailTemplate</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>HomePageComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>HomePageLayout</name>
-    </types>
-    <!-- Home Page Custom Link -->
-    <types>
-        <members>*</members>
-        <name>CustomPageWebLink</name>
-    </types>
-    <types>
+	<types>
+		<members>Account_Activated_Date_Migrate</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>Activated_Order_Notification</members>
+		<name>CustomNotificationType</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>Activity</members>
+		<members>Contact</members>
+		<members>Lead</members>
+		<members>Opportunity</members>
+		<members>OpportunityContactRole</members>
+		<members>Order</members>
+		<members>OrderItem</members>
+		<members>Pricebook2</members>
+		<members>PricebookEntry</members>
+		<members>Product2</members>
+		<members>Task</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
         <members>*</members>
         <name>ListView</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>Layout</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>Profile</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>Report</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>Dashboard</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>ReportType</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-
-    <types>
-        <members>*</members>
+	<types>
+		<members>*</members>
+		<name>CustomPageWebLink</name>
+	</types>
+	<types>
+        <members>Order.New</members>
         <name>WebLink</name>
     </types>
-
-    <types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>QuickAction</name>
-    </types>
-
-    <!-- 
- Workflow includes WorkflowFieldUpdate,
- WorkflowAlert, WorkflowOutboundMessage, WorkflowRule
-    -->
-    <types>
-        <members>*</members>
-        <name>Workflow</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>WorkflowRule</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>WorkflowAlert</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>WorkflowOutboundMessage</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>WorkflowTask</name>
-    </types>
-
-    <!--        Custom Button/Link         -->
-    <types>
-        <members>*</members>
-        <name>WebLink</name>
-    </types>
-
-    <!--        Standard Tabs and Fields renames        -->
-    <types>
-        <members>*</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-
-    <!--        Validation Rules        -->
+<!--        Validation Rules        -->
     <types>
         <members>*</members>
         <name>ValidationRule</name>
     </types>
-
-    <!--        Record Types        -->
-    <types>
-        <members>*</members>
-        <name>RecordType</name>
-    </types>
-
-    <!--       Role        -->
-    <types>
-        <members>*</members>
-        <name>Role</name>
-    </types>
-
-    <!--       Queue        -->
-    <types>
-        <members>*</members>
-        <name>Queue</name>
-    </types>
-
-    <!--       Public Group        -->
-    <types>
-        <members>*</members>
-        <name>Group</name>
-    </types>
-
-    <!--      Custom Labels        -->
-    <types>
-        <members>*</members>
-        <name>CustomLabel</name>
-    </types>
-
-    <!--      LetterHead       -->
-    <types>
-        <members>*</members>
-        <name>Letterhead</name>
-    </types>
-
-    <!--      Process Builder and Flow  -->
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Sales_and_Marketing_Dashboards/AdoptionDashboard</members>
+		<members>Sales_and_Marketing_Dashboards/AdoptionDashboard1</members>
+		<members>Sales_and_Marketing_Dashboards/Best_Practice_Leads_Dashboard</members>
+		<members>Sales_and_Marketing_Dashboards/Best_Practices_Dashboard6</members>
+		<members>Sales_and_Marketing_Dashboards/Dashboard_WLAdmin1</members>
+		<members>Sales_and_Marketing_Dashboards/drhrVsYaWFJJrNMjNlQpvVDKllbKOl1</members>
+		<members>Service_Dashboards/Agent_Supervisor_Overview</members>
+		<members>Service_Dashboards/Service_Exec_Overview</members>
+		<members>Service_Dashboards/Service_KPIs</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
+		<members>Lead.Lead_Duplication_Rule_for_Mobile</members>
+		<members>Lead.Lead_Duplication_Rule_for_Phone</members>
+		<name>DuplicateRule</name>
+	</types>
+	<types>
+		<members>WLTemplates/CoInfoStockSheet</members>
+		<members>WLTemplates/Diablo_reciprocating_blades</members>
+		<members>WLTemplates/HusqvarnaEquipmentMegaBundle</members>
+		<members>WLTemplates/ICSChainsawVideo</members>
+		<members>WLTemplates/K535iBundle</members>
+		<members>WLTemplates/Makita4StrokePowerCutter</members>
+		<members>WLTemplates/OBRMWFireDeptRefs</members>
+		<members>WLTemplates/OBRMXAGCWContractorRefs</members>
+		<members>WLTemplates/OBRMXAHWContractorRefs</members>
+		<members>WLTemplates/OBRMXAWFireDeptRefs</members>
+		<members>WLTemplates/OBRMXHCWContractorRefs</members>
+		<members>WLTemplates/StoneBlazer</members>
+		<members>WLTemplates/WLDGCW</members>
+		<members>WLTemplates/WLWRMWFireDeptRefs</members>
+		<members>WLTemplates/WLXFRSZ68912CoInfoStockSheet</members>
+		<members>WLTemplates/WLXPTPORCELAINTILEBLADE</members>
+		<members>WLTemplates/XAGCWContractorRefs</members>
+		<members>WLTemplates/XAGCXAHWContractorRefs</members>
+		<members>WLTemplates/XAHWContractorRefs</members>
+		<members>WLTemplates/XAWContractorRefs</members>
+		<members>WLTemplates/XCWContractorRefs</members>
+		<members>WLTemplates/XHCwContractorRefs</members>
+		<members>WLTemplates/XPWStocksheet</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FieldSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlexiPage</name>
+	</types>
+	<!--      Process Builder and Flow  -->
     <types>
         <members>*</members>
         <name>Flow</name>
     </types>
-
-    <types>
-        <members>*</members>
-        <name>QuickAction</name>
-    </types>
-
-    <!-- Platform Event -->
-    <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-
-    <!-- Sharing Rule -->
-    <types>
-        <members>*</members>
-        <name>SharingCriteriaRule</name>
-    </types>
-
-    <types>
-        <members>*</members>
-        <name>SharingOwnerRule</name>
-    </types>
-
-    <!-- Lightning Component -->
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-
-    <!-- Lightning Record Pages / Lightning App Builder Pages -->
-    <types>
-        <members>*</members>
-        <name>FlexiPage</name>
-    </types>
-
-    <!-- Duplicate Rule -->
-    <types>
-        <members>*</members>
-        <name>DuplicateRule</name>
-    </types>
-
-    <!-- Matching Rule -->
-    <types>
-        <members>*</members>
-        <name>MatchingRule</name>
-    </types>
-
-    <!-- Custom Settings -->
-    <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-
-    <!-- Opportunity Stage -->
-    <types>
-        <members>*</members>
-        <name>StandardValueSet</name>
-    </types>
-
-    <!-- Case Status -->
-    <types>
-        <members>*</members>
-        <name>StandardValueSet</name>
-    </types>
-
-    <!-- Task Type -->
-    <types>
-        <members>*</members>
-        <name>StandardValueSet</name>
-    </types>
-
-    <!-- Lead Fields Mappings -->
+	<types>
+		<members>*</members>
+		<name>Group</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Lead.Lead_Match_by_Mobile_No_Exact</members>
+		<members>Lead.Lead_Match_by_Phone_No_Exact</members>
+		<name>MatchingRule</name>
+	</types>
+	<!-- Lead Fields Mappings -->
     <types>
         <members>*</members>
         <name>LeadConvertSettings</name>
     </types>
-
-    <!-- Custom Metadata Type Data - do not use __mdt for records -->
-    <types>
-        <members>*</members> 
-        <name>CustomMetadata</name>
-    </types>
-
-    <!-- Custom Metadata Type -->
-    <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-
-    <!-- Field Set -->
-    <types>
-        <members>*</members>
-        <name>FieldSet</name>
-    </types>
-
-    <!-- Lightning Web Component or LWC -->
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <version>46.0</version>
+	<types>
+		<members>*</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>Account_Receivable_Team</members>
+		<name>Queue</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>QuickAction</name>
+	</types>
+	<types>
+		<members>Order.Credit_Memo</members>
+		<members>Order.Standard_Order</members>
+		<members>Task.Feedback</members>
+		<members>Task.Payment_Reminder</members>
+		<name>RecordType</name>
+	</types>
+	<types>
+		<members>DashboardReportsAdoption/UsageActivitiesCompleted</members>
+		<members>Sales_Marketing_Reports/Closed_Lost_by_Reason</members>
+		<members>Sales_Marketing_Reports/Closed_Won_80_This_Q_by_Owner</members>
+		<members>Sales_Marketing_Reports/Closed_Won_This_Q_by_Owner</members>
+		<members>Sales_Marketing_Reports/Closed_Won_This_Q_by_Type</members>
+		<members>Sales_Marketing_Reports/Closed_Won_by_Type</members>
+		<members>Sales_Marketing_Reports/Conversion_Rate</members>
+		<members>Sales_Marketing_Reports/Hot_Leads_w_o_Activity_96_Hours</members>
+		<members>Sales_Marketing_Reports/Leads_Converted_All_Time</members>
+		<members>Sales_Marketing_Reports/Leads_Converted_Current_FQ2</members>
+		<members>Sales_Marketing_Reports/Leads_Converted_by_FQ</members>
+		<members>Sales_Marketing_Reports/Leads_Created_Current_FQ</members>
+		<members>Sales_Marketing_Reports/Open_Opportunity_Salesrep</members>
+		<members>Sales_Marketing_Reports/Open_Oppties_This_Q</members>
+		<members>Sales_Marketing_Reports/Open_Oppties_This_Q_No_Acti_Last_96hrs</members>
+		<members>Sales_Marketing_Reports/Pipeline_Report_This_Q</members>
+		<members>Sales_Marketing_Reports/Win_Ratio</members>
+		<members>Sales_and_Marketing_Reports/Activities_by_Salesperson</members>
+		<members>Sales_and_Marketing_Reports/CampaignROIbyCampaignType</members>
+		<members>Sales_and_Marketing_Reports/CampaignsbyROI</members>
+		<members>Sales_and_Marketing_Reports/Closed_Deals_leader_board</members>
+		<members>Sales_and_Marketing_Reports/Closed_opportunity</members>
+		<members>Sales_and_Marketing_Reports/Leads_by_Industry</members>
+		<members>Sales_and_Marketing_Reports/LeadsbySource</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Amount_per_Camp</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Conversion_Rate</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Converted_Amount</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Converted_and_Won_Amount</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Converted_by_Month</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Lead_Trends_by_Status</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Leads_Converted</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_Leads_by_Campaigns</members>
+		<members>Sales_and_Marketing_Reports/Marketing_Exec_of_Leads</members>
+		<members>Sales_and_Marketing_Reports/OpportunityProductPipeline</members>
+		<members>Sales_and_Marketing_Reports/SP_Current_Month_Open_Pipeline</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Bookings_Trend</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Closed_Deals_QTD</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Lost_Deals</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Open_Deals</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Open_Pipeline</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Open_Pipeline_next_90_days</members>
+		<members>Sales_and_Marketing_Reports/Sales_Exec_Top_Closed_Deals</members>
+		<members>Sales_and_Marketing_Reports/Sales_Manager_Closed_Deals</members>
+		<members>Sales_and_Marketing_Reports/Sales_Manager_Open_Opportunities</members>
+		<members>Sales_and_Marketing_Reports/Sales_Manager_Open_Pipeline</members>
+		<members>Sales_and_Marketing_Reports/Sales_Manager_Pipeline_Next_90_days</members>
+		<members>Sales_and_Marketing_Reports/Sales_Person_Activities_Completed</members>
+		<members>Sales_and_Marketing_Reports/Sales_Person_Activity</members>
+		<members>Sales_and_Marketing_Reports/Sales_Person_MTD_Sales</members>
+		<members>Sales_and_Marketing_Reports/Sales_Person_Open_Pipeline_by_stage</members>
+		<members>Service_Dashboards_Reports/Age_of_Cases_Currently_Open_by_Type</members>
+		<members>Service_Dashboards_Reports/Aged_Cases_by_Account</members>
+		<members>Service_Dashboards_Reports/Aged_Cases_by_Agent</members>
+		<members>Service_Dashboards_Reports/Average_Case_Resolution_Time_1</members>
+		<members>Service_Dashboards_Reports/Average_Case_Resolution_Time_MTD</members>
+		<members>Service_Dashboards_Reports/Avg_Case_Resolution_Time_MTD_by_Agen</members>
+		<members>Service_Dashboards_Reports/Case_Resolution_Time_MTD_by_Origin</members>
+		<members>Service_Dashboards_Reports/Cases_Closed_MTD</members>
+		<members>Service_Dashboards_Reports/Cases_Closed_MTD_by_Agent</members>
+		<members>Service_Dashboards_Reports/Cases_Created_MTD</members>
+		<members>Service_Dashboards_Reports/Cases_Currently_Open</members>
+		<members>Service_Dashboards_Reports/Cases_Currently_Open_by_Account</members>
+		<members>Service_Dashboards_Reports/Cases_Currently_Open_by_Agent</members>
+		<members>Service_Dashboards_Reports/Cases_Currently_Open_by_Origin</members>
+		<members>Service_Dashboards_Reports/Cases_Currently_Open_by_Priority</members>
+		<members>Service_Dashboards_Reports/Cases_Currently_Open_by_Type</members>
+		<members>Service_Dashboards_Reports/Cases_by_Origin</members>
+		<members>Service_Dashboards_Reports/Cases_by_Origin_and_Open_Status</members>
+		<members>Service_Dashboards_Reports/Cases_by_Priority</members>
+		<members>Service_Dashboards_Reports/Cases_by_Type_and_Open_Status</members>
+		<members>Service_Dashboards_Reports/High_Priority_Open_Cases_by_Account</members>
+		<members>Service_Dashboards_Reports/Top_10_Cases_by_Age</members>
+		<members>Service_Dashboards_Reports/Trend_of_Case_Resolution_Time</members>
+		<members>Service_Dashboards_Reports/Trend_of_Cases_Closed</members>
+		<members>Service_Dashboards_Reports/Trend_of_Cases_Created</members>
+		<members>WLReports/Account_Receivables</members>
+		<members>WLReports/Call_for_Feedback</members>
+		<members>WLReports/Closed_Opportunities_Under_Each_Rep</members>
+		<members>WLReports/Current_Accounts</members>
+		<members>WLReports/Hot_Leads</members>
+		<members>WLReports/House_Book_Accounts</members>
+		<members>WLReports/House_book_Leads</members>
+		<members>WLReports/OpenBalanceAccount</members>
+		<members>WLReports/Open_Orders</members>
+		<members>WLReports/Open_Tasks</members>
+		<members>WLReports/Pending_Orders</members>
+		<members>WLReports/Top10Customers</members>
+		<members>WLReports/Top10DemandingProducts</members>
+		<members>WLReports/Top10SoldProducts</members>
+		<members>WLReports/Updates_Accounts</members>
+		<members>WLReports/Won_Opportunites_Last18Months</members>
+		<members>WLReports/Won_Opportunities_Last6Months</members>
+		<members>WLReports/Won_Opportunities_LastYear</members>
+		<members>WLReports/Won_Opportunities_Quarter</members>
+		<members>unfiled$public/Opportunity_Amount_by_Stage_Sample</members>
+		<members>unfiled$public/SampleReportActiveUsers</members>
+		<members>unfiled$public/SampleReportCasesStatusbyRep</members>
+		<members>unfiled$public/SampleReportClosedSales</members>
+		<members>unfiled$public/SampleReportCompletedActivities</members>
+		<members>unfiled$public/SampleReportCustomReportsbyUser</members>
+		<members>unfiled$public/SampleReportDocumentLibrary</members>
+		<members>unfiled$public/SampleReportLastModifiedBy</members>
+		<members>unfiled$public/SampleReportLeadsbyLeadSource</members>
+		<members>unfiled$public/SampleReportLoginLeaderboard</members>
+		<members>unfiled$public/SampleReportLoginWallofShame</members>
+		<members>unfiled$public/SampleReportMonthtoDateTrending</members>
+		<members>unfiled$public/SampleReportPipelineByCloseMonth</members>
+		<members>unfiled$public/SampleReportPipelineHistory</members>
+		<members>unfiled$public/SampleReportSalesLeaderboard</members>
+		<members>unfiled$public/SampleReportSalesPipelinebyStage</members>
+		<members>unfiled$public/SampleReportSolutionsAdded</members>
+		<members>unfiled$public/SampleReportTopAccounts</members>
+		<members>unfiled$public/SampleReportUsersLoggedIn</members>
+		<members>unfiled$public/SampleReportofAccounts</members>
+		<members>unfiled$public/SampleReportofCases</members>
+		<members>unfiled$public/SampleReportofContacts</members>
+		<members>unfiled$public/SampleReportofDocuments</members>
+		<members>unfiled$public/SampleReportofLeads</members>
+		<members>unfiled$public/SampleReportofOpportunities</members>
+		<members>unfiled$public/SampleReportofReports</members>
+		<members>unfiled$public/SampleReportofSolutions</members>
+		<members>unfiled$public/SampleReportofTasksandActivities</members>
+		<members>unfiled$public/SampleReportsLeadsbyStatus</members>
+		<members>unfiled$public/flow_screen_prebuilt_report</members>
+		<name>Report</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ReportType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Role</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Workflow</name>
+	</types>
+	<types>
+		<members>Lead.Source_of_Lead_Update</members>
+		<members>Order.Paid_Date_Update</members>
+		<members>Order.Parent_Field_Update</members>
+		<name>WorkflowFieldUpdate</name>
+	</types>
+	<types>
+		<members>Lead.Lead Creation Field Update</members>
+		<members>Order.Paid Date Field Update</members>
+		<name>WorkflowRule</name>
+	</types>
+	<version>49.0</version>
 </Package>
