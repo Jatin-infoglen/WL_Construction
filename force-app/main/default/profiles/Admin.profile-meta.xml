@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>AccountTriggerTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountUpdatesQueueBatch</apexClass>
@@ -14,7 +14,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AccountUpdatesQueueBatchTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AcountTriggerHelper</apexClass>
@@ -22,7 +22,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OrderItemTriggerTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderProductTriggerHelper</apexClass>
@@ -34,7 +34,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OrderTriggerTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>PaymentReminderBatch</apexClass>
@@ -46,7 +46,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>PaymentReminderBatchShedulerTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RecordTypes</apexClass>
@@ -58,17 +58,17 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TaskTriggerTest</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestDataFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WlUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <custom>true</custom>
+    <custom>false</custom>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
